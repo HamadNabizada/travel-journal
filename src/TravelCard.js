@@ -6,6 +6,7 @@ export default function TravelCard(props){
             <img src={`/images/${props.imageUrl}`} alt="" />
             <div className="info">
                 <div className="location-wrapper">
+                    <img className='gpsIcon' src="/images/gpsicon.svg" alt="" />
                     <h3>{props.location}</h3>
                     <h4><a href={props.googleMapsUrl}>View on Google Maps</a></h4>
                 </div>
